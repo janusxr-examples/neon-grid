@@ -1,0 +1,12 @@
+<FireBoxRoom>
+ <Assets>
+  <AssetImage id="sky_side" src="sky_side.png" tex_clamp="true" tex_colorspace="sRGB"/>
+  <AssetImage id="sky_up" src="sky.png" tex_clamp="true" tex_colorspace="sRGB"/>
+  <AssetObject id="grid" mtl="grid.mtl" src="grid.obj"/>
+ </Assets>
+ <Room col="#000000" cubemap_irradiance_id="__CUBEMAP_IRRADIANCE" cubemap_radiance_id="__CUBEMAP_RADIANCE" fog="true" fog_col="black" fog_density="0.1" fog_end="70" fog_mode="linear" fog_start="2" near_dist="0.0025" pos="0 0.3 0" skybox_back_id="sky_side" skybox_front_id="sky_side" skybox_left_id="sky_side" skybox_right_id="sky_side" skybox_up_id="sky_up" use_local_asset="room_plane" visible="false">
+  <Object collision_id="cube" id="cube" js_id="koolguy1337-2-1520959750" pos="0 -0.5 3.5" scale="100000 0.1 100000" visible="false" xdir="-1 0 0.000002" zdir="-0.000002 0 -1"/>
+  <Object collision_id="grid" cull_face="none" id="grid" js_id="koolguy1337-3-1520960211" lighting="false" pos="0 0 0" xdir="-1 -0.000002 0" ydir="0.000002 -1 0.000001" zdir="0 0.000001 1"/>
+  <Light light_cone_angle="0" light_cone_exponent="1" light_intensity="15" light_range="10" pos="0 4 6"/>
+ </Room>
+</FireBoxRoom>
